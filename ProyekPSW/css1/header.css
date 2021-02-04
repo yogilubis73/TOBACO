@@ -1,0 +1,43 @@
+.row1 {
+	display : flex;
+	background-color: #FDE68C;
+}
+
+.header1 {
+	flex: 1%;
+	
+
+
+}
+
+.header2 {
+	flex:1%;
+}
+
+.header3 {
+	flex: 60%;
+}
+
+.navbar {
+   	display: flex;
+    background-color: #333;
+	position : sticky;
+	top : 0;
+	width: 100%;
+	}
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+	text-decoration: none;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: ORANGE;
+    color: black;
+}
+
+@media screen and (max-width: 700px) {
+    .row1, .navbar {   
+        flex-direction: column;
+    }
+}

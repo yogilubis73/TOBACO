@@ -1,0 +1,36 @@
+.row {  
+    display: flex;
+    flex-wrap: column;
+    background-color: grey;
+}
+.left {
+    display: no-wrap;
+    flex: 20%;
+    background-color: grey;
+    padding: 20px;
+}
+
+.main {
+	flex:60%;
+    background-color: grey;
+    padding: 20px;
+}
+.right {
+    flex: 20%;
+    display: flex;
+    background-color: grey;
+    padding: 20px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .row, .navbar {   
+        flex-direction: column;
+    }
+}
+p {
+    font-color: white;
+}   
+.lanjut a:hover {
+    color: yellow;
+}
